@@ -1,0 +1,8 @@
+@import "./normalize.css";
+@import "./header.css";
+@import "./hero.css";
+
+
+* {
+    color: #151618;
+}

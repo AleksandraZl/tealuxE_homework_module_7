@@ -1,0 +1,33 @@
+.header {
+  max-width: 1200px;
+  /* margin: 30px 200px; */
+  height: 142px;
+  margin-top: 30px;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+  gap: auto;
+}
+.logo {
+}
+
+nav ul {
+  width: 582px;
+  display: flex;
+  justify-content: space-between;
+  gap: 65px;
+  font-size: 18px;
+  padding: 0;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
