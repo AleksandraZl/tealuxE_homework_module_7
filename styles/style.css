@@ -2,7 +2,14 @@
 @import "./header.css";
 @import "./hero.css";
 @import "./quote.css";
+@import "./collections.css";
 
 * {
     color: #151618;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
 }
