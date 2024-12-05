@@ -5,9 +5,11 @@
 @import "./collections.css";
 @import "./reviews.css";
 @import "./our_tea_blog.css";
+@import "./subscribe.css";
 
 * {
     color: #151618;
+    line-height: 1.21;
 }
 
 .clients_reviews, .footer {
