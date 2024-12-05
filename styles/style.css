@@ -3,10 +3,15 @@
 @import "./hero.css";
 @import "./quote.css";
 @import "./collections.css";
+@import "./reviews.css";
 
 * {
     color: #151618;
 }
+
+.clients_reviews, .footer {
+    background-color: #f7f2ea;
+  }
 
 h2 {
     font-size: 40px;
