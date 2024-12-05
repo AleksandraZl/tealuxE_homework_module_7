@@ -1,19 +1,22 @@
 .subscribe_block_6 {
     position: relative;
-    margin-top: 28px;
-    max-width: 100%;
+    margin: 28px auto;
+    width: 100%;
     height: 418px;
+    background-image: url("../images/block_6_bg_photo.jpg");
+    background-size: cover;
+    background-position: center;
 }
 .container_block_6 {
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    /* margin: 100px 200px; */
     top: 100px;
     left: 200px;
     gap: 40px;
     max-width: 1200px;
+    width: 100%;
     height: auto;
 }
 .container_text_6 {

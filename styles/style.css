@@ -6,6 +6,8 @@
 @import "./reviews.css";
 @import "./our_tea_blog.css";
 @import "./subscribe.css";
+@import "./priorities.css";
+@import "./footer.css";
 
 * {
     color: #151618;
@@ -27,7 +29,7 @@ h3 {
     font-weight: 100;
 }
 
-.view_all, .paragraph_block_6, .join, ::placeholder,  .priority_paragraph{
+.view_all, .paragraph_block_6, .join, ::placeholder {
     font-family: "Open sans", sans-serif;
     font-size: 20px;
     font-weight: 60;
