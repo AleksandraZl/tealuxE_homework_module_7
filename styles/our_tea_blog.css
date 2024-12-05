@@ -1,0 +1,50 @@
+.our_tea_blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 150px 0px;
+}
+.blog_posts {
+  max-width: 1200px;
+  display: grid;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 60px 200px;
+  gap: 40px 58px;
+}
+.post {
+  text-align: left;
+  display: flex;
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 47%; */
+  gap: 20px;
+}
+.post_text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.post_title {
+  font-weight: 80;
+  max-width: 252px;
+  height: 86px;
+}
+
+.post_author,
+.read_more {
+  font-family: "Open sans", sans-serif;
+  font-size: 13px;
+  margin: 20px 0;
+  font-weight: 60;
+}
+.read_more {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.view_all_container {
+  display: flex;
+  justify-content: center;
+}

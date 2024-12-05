@@ -4,6 +4,7 @@
 @import "./quote.css";
 @import "./collections.css";
 @import "./reviews.css";
+@import "./our_tea_blog.css";
 
 * {
     color: #151618;
@@ -17,4 +18,21 @@ h2 {
     font-size: 40px;
     font-weight: 100;
     text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.view_all, .paragraph_block_6, .join, ::placeholder,  .priority_paragraph{
+    font-family: "Open sans", sans-serif;
+    font-size: 20px;
+    font-weight: 60;
+}
+
+.view_all, .join {
+  padding: 12px 41px;
+  border: 1px solid #151618;
+  background-color: white;
 }
