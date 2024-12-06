@@ -1,63 +1,139 @@
-
 .footer_container {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: left;
-    max-width: 1200px;
-    width: 100%;
-    height: auto;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 1200px;
+  width: 100%;
+  gap: 90px;
+  margin: 0 auto;
 }
-.footer_upper {
+
+.footer_left, .footer_right {
     margin-top: 100px;
-    /* margin-left: 200px; */
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    gap: 213px;
+    margin-bottom: 18px;
+}
+
+.footer_left {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 90px;
 }
 
 .footer_section {
-    min-width: 155px;
-    margin: 10px;
+  min-width: 200px;
+  margin: 10px;
 }
 
 .footer_section h3 {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
-.footer_section_items {
-    list-style: none;
+
+.footer_section_items, .copyright, blockquote {
     font-family: "Open sans", sans-serif;
-    font-size: 16px;
-    font-weight: 60;
+  font-size: 16px;
+  font-weight: 60;
 }
 
 .footer_section_items li {
-    margin-bottom: 20px;
-    /* max-width: 155px; */
+  margin-bottom: 20px;
 }
 
-.fotter_upper_right {
-}
-.footer_quote_block {
-}
-.footer_quote {
-}
-.quote_author {
-}
-.Contacts_us {
-}
-.contact_message {
-}
-.logo_contacts {
-}
-.contacts {
-}
-.social_nets {
-}
-.footer_bottom {
-}
 .copyright {
+    margin-top: 184px;
+}
+
+.payment_methods, .social_nets {
+    width: auto;
+    display: flex;
+    gap: 20px;
 }
 .payment_methods {
+    margin-top: 100px;
+}
+
+.footer_right {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 41px;
+}
+.footer_quote {
+    display:flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    max-width: 269px;
+    margin-top: 85px;
+}
+
+blockquote {
+    font-style: italic;
+    line-height: 136%;
+}
+
+.quote_author {
+    font-family: "Open sans", sans-serif;
+    font-size: 12px;
+    font-weight: 60;
+    max-width: 129px;
+    margin-top: 20px;
+    line-height: 136%;
+}
+.Contacts_us {
+    width: 270px;
+    display: flex;  
+  flex-direction: column;  
+  align-items: flex-end;
+}
+
+.contact_message, .contacts {
+    font-family: "Open sans", sans-serif;
+    font-size: 13px;
+    font-weight: 60;
+}
+
+.contact_message {
+    max-width: 270px;
+    margin-top: 55px;
+}
+.logo_contacts {
+    max-width: 270px;
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.logo_contacts img {
+    width: 57px;
+    height: 91px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 150px;
+}
+
+.info {
+    margin-top: 15px;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;  
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.contact img, .social_nets img {
+    width: 20px;
+    height: 20px;
+}
+.social_nets {
+    margin-top: 50px;
 }
