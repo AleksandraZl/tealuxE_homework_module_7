@@ -10,14 +10,13 @@
 .container_block_6 {
     position: absolute;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-end;
-    top: 100px;
-    left: 200px;
+    margin-top: 100px;
+    /* left: 200px; */
     gap: 40px;
     max-width: 1200px;
     width: 100%;
-    height: auto;
 }
 .container_text_6 {
     max-width: 580px;
