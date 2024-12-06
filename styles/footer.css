@@ -1,6 +1,5 @@
 .footer_container {
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: space-between;
   flex-direction: row;
   align-items: flex-start;
@@ -31,7 +30,7 @@
   margin-bottom: 50px;
 }
 
-.footer_section_items, .copyright, blockquote {
+.footer_section_items, .copyright, .footer blockquote {
     font-family: "Open sans", sans-serif;
   font-size: 16px;
   font-weight: 60;

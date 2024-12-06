@@ -16,11 +16,7 @@
 }
 
 .text-overlay {
-  position:absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  position: absolute;
   text-align: left;
   margin-top: 220px;
   margin-bottom: 48px; 
