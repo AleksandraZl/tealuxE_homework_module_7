@@ -1,8 +1,10 @@
 .hero {
-  position: relative;
-  margin-top: 28px auto;
+  /* position: relative; */
+  padding-top: 254px;
+  padding-bottom: 48px;
   width: 100%;
-  height: 500px;
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
   background-image: url("../images/block_1_bg_photo.jpg");
   background-size: cover;
   background-position: center;
@@ -13,16 +15,6 @@
 .paragraph_block_1 {
   font-family: "Cormorant", sans-serif;
   color: white;
-}
-
-.text-overlay {
-  position: absolute;
-  text-align: left;
-  margin-top: 220px;
-  margin-bottom: 48px; 
-  padding: 20px;
-  max-width: 1200px;
-  width: auto;
 }
 
 .headline_block_1 {

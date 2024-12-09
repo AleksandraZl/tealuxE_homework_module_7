@@ -33,7 +33,7 @@
 .footer_section_items, .copyright, .footer blockquote {
     font-family: "Open sans", sans-serif;
   font-size: 16px;
-  font-weight: 60;
+  font-weight: 100;
 }
 
 .footer_section_items li {
@@ -75,7 +75,7 @@ blockquote {
 .quote_author {
     font-family: "Open sans", sans-serif;
     font-size: 12px;
-    font-weight: 60;
+    font-weight: 100;
     max-width: 129px;
     margin-top: 20px;
     line-height: 136%;
@@ -90,7 +90,7 @@ blockquote {
 .contact_message, .contacts {
     font-family: "Open sans", sans-serif;
     font-size: 13px;
-    font-weight: 60;
+    font-weight: 100;
 }
 
 .contact_message {

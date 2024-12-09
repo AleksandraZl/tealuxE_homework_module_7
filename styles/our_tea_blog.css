@@ -6,8 +6,8 @@
 }
 .blog_posts {
   max-width: 1200px;
+  width: 100%;
   display: grid;
-  /* flex-wrap: wrap; */
   justify-content: center;
   grid-template-columns: repeat(2, 1fr);
   margin: 60px auto;
@@ -16,9 +16,6 @@
 .post {
   text-align: left;
   display: flex;
-  /* flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 47%; */
   gap: 20px;
 }
 .post_text {
@@ -27,7 +24,7 @@
   text-align: left;
 }
 .post_title {
-  font-weight: 80;
+  font-weight: 100;
   max-width: 252px;
   height: 86px;
 }
@@ -36,7 +33,7 @@
 .read_more {
   font-family: "Open sans", sans-serif;
   font-size: 13px;
-  font-weight: 60;
+  font-weight: 100;
 }
 
 .post_author {
