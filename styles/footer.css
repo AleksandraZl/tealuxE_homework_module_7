@@ -18,15 +18,6 @@
   margin: 0 auto;
 }
 
-.footer_container_bottom {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 210px;
-  max-width: 500px;
-  margin: 0 200px;
-}
-
 .footer_left {
   display: flex;
   justify-content: space-between;
@@ -72,12 +63,13 @@
   flex-direction: row;
   gap: 41px;
 }
+
 .footer_quote {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   max-width: 269px;
-  margin-top: 85px;
+  padding-top: 85px;
 }
 
 blockquote {
@@ -90,11 +82,11 @@ blockquote {
   font-size: 12px;
   font-weight: 100;
   max-width: 129px;
-  margin-top: 20px;
+  padding-top: 20px;
   line-height: 136%;
 }
+
 .Contacts_us {
-  width: 270px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -109,13 +101,14 @@ blockquote {
 
 .contact_message {
   max-width: 270px;
-  margin-top: 55px;
+  padding-top: 55px;
 }
+
 .logo_contacts {
   max-width: 270px;
   display: flex;
   gap: 40px;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 .logo_contacts img {
@@ -127,11 +120,10 @@ blockquote {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 150px;
 }
 
 .info {
-  margin-top: 15px;
+  padding-top: 15px;
 }
 
 .contact {
@@ -151,3 +143,12 @@ blockquote {
 .social_nets {
   margin-top: 50px;
 }
+
+.footer_container_bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 210px;
+    max-width: 500px;
+    margin: 0 200px;
+  }

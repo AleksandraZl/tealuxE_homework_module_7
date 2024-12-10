@@ -167,13 +167,13 @@
   }
 
   .footer_quote {
-    margin-top: 0;
+    padding-top: 0;
   }
 
   .footer_container_bottom {
     gap: 31px;
     max-width: 500px;
-    margin: 0 65px;
+    padding: 0 65px;
   }
 }
 
@@ -206,5 +206,64 @@
   .blog_posts {
     grid-template-columns: 1fr;
     gap: 30px;
+  }
+
+  .footer_container {
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 12px;
+  }
+
+  .footer_container_top {
+    flex-direction: column;
+    max-width: 460px;
+    gap: 50px;
+  }
+
+  .footer_left {
+    gap: 133px;
+  }
+
+  .footer_right h3 {
+    text-align: center;
+  }
+  .footer_quote {
+    padding-top: 0;
+    max-width: 460px;
+  }
+
+  .quote_author {
+    max-width: 298px;
+  }
+
+  .contact_message {
+    max-width: 460px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .logo_contacts {
+    max-width: 460px;
+    gap: 24px;
+    padding-top: 20px;
+    padding-left: 31px;
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 29px;
+  }
+
+  .social_nets {
+    margin-top: 0;
+  }
+
+  .footer_container_bottom {
+    gap: 153px;
+    max-width: 460px;
+    padding: 0 10px;
+    margin: 0;
   }
 }
