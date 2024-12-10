@@ -9,8 +9,8 @@
 .priorities {
   display: flex;
   justify-content: center;
-  margin: 60px auto;
   gap: 40px;
+  padding-top: 60px;
 }
 
 .priority {
@@ -31,7 +31,7 @@
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
   font-weight: 300;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 .priority_paragraph {
   font-family: "Open sans", sans-serif;
