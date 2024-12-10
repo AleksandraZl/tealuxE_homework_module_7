@@ -18,27 +18,16 @@
     display: none;
   }
 
-  nav ul {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 142px;
-    left: 0;
-    right: 0;
-    background-color: white;
-    padding: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-
-  nav.active ul {
-    display: flex;
-  }
-
   .icon {
     gap: 50px;
   }
 
+  nav ul {
+    display: none;
+  }
+
   .hero {
+    background-image: url("../images/block_1_bg_photo_768.jpg");
     margin-left: calc(50% - 384px);
     margin-right: calc(50% - 384px);
   }
@@ -53,15 +42,13 @@
   }
 
   .paragraph_block_1 {
-    font-size: 24px;
-    font-weight: 100;
     max-width: 558px;
   }
 
   .quote {
     max-width: 640px;
     margin-top: 120px;
-    margin-top: 135px;
+    margin-bottom: 135px;
   }
 
   .collections {
@@ -75,26 +62,33 @@
     gap: 6px;
   }
 
+  .clients_reviews {
+    padding: 0;
+    padding-top: 60px;
+  }
+
   .reviews {
     display: flex;
     flex-basis: 50%;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 60px auto;
-    gap: 26px;
+    padding: 50px 10px;
+    gap: 20px;
+  }
+
+  .review {
+    max-width: 220px;
   }
 
   .our_tea_blog {
+    margin: 60px auto; 
     padding: 0 87px;
   }
 
   .blog_posts {
     grid-template-columns: 1fr;
+    margin: 60px auto;
     gap: 30px;
-  }
-
-  .post:nth-child(even) {
-    margin-left: 98px;
   }
 
   .subscribe_block_6 {
@@ -196,6 +190,51 @@
     display: block;
     padding-left: 171px;
     padding-right: 80px;
+  }
+
+  .hero {
+    background-image: url("../images/block_1_bg_photo_480.jpg");
+    margin-left: calc(50% - 240px);
+    margin-right: calc(50% - 240px);
+  }
+
+  .text-overlay {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .headline_block_1 {
+    font-size: 40px;
+    max-width: 450px;
+  }
+
+  .paragraph_block_1 {
+    max-width: 450px;
+  }
+
+  .quote {
+    max-width: 376px;
+    margin: 60px auto;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+  }
+
+  .collections {
+    margin-top: 0;
+    margin-bottom: 60px;
+  }
+
+  .collections h2 {
+    padding-bottom: 30px;
+  }
+
+  .reviews {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+
+    padding: 50px auto;
+    gap: 26px;
   }
 
   .our_tea_blog {
