@@ -44,7 +44,7 @@
   }
 
   .text-overlay {
-    padding-left: 20px; 
+    padding-left: 20px;
     padding-right: 20px;
   }
 
@@ -67,7 +67,7 @@
   .collections {
     margin: 120px 0;
   }
-  
+
   .collection_items {
     flex-wrap: wrap;
     max-width: 768px;
@@ -76,7 +76,6 @@
   }
 
   .reviews {
-    max-width: 768px;
     display: flex;
     flex-basis: 50%;
     justify-content: center;
@@ -84,12 +83,104 @@
     margin: 60px auto;
     gap: 26px;
   }
+
+  .our_tea_blog {
+    padding: 0 87px;
+  }
+
+  .blog_posts {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .post:nth-child(even) {
+    margin-left: 98px;
+  }
+
+  .subscribe_block_6 {
+    width: 100%;
+    padding: 59px 0;
+    background-image: url("../images/block_6_bg_photo_768.png");
+  }
+
+  .container_block_6 {
+    display: flex;
+    max-width: 640px;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .container_text_6 {
+    max-width: 640px;
+  }
+
+  .headline_block_6 {
+    text-align: center;
+  }
+
+  .paragraph_block_6 {
+    text-align: center;
+  }
+
+  .container_input_6 {
+    max-width: 580px;
+    width: 100%;
+    justify-items: center;
+  }
+
+  .priorities_block_7 {
+    margin: 120px auto;
+  }
+
+  .priorities {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: auto;
+    row-gap: 30px;
+    max-width: 640px;
+    width: 100%;
+  }
+
+  .footer_container {
+    max-width: 640px;
+    gap: 65px;
+  }
+
+  .footer_left {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 31px;
+  }
+
+  .copyright {
+    margin-top: 280px;
+  }
+
+  .payment_methods {
+    margin-top: 196px;
+  }
+
+
+  .footer_right {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .footer_quote {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 269px;
+    margin-top: 0;
+  }
 }
-
-
-
-
-
 
 @media (max-width: 480px) {
   .header_container {
@@ -131,5 +222,15 @@
 
   .icon {
     gap: 50px;
+  }
+
+  .our_tea_blog {
+    padding: 0 10px;
+  }
+
+  .blog_posts {
+    /* max-width: 460px; */
+    grid-template-columns: 1fr;
+    gap: 30px;
   }
 }
