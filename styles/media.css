@@ -203,33 +203,14 @@
     padding-left: 171px;
     padding-right: 80px;
   }
-
-  nav ul {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 142px;
-    left: 0;
-    right: 0;
-    background-color: white;
-    padding: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-
-  nav.active ul {
-    display: flex;
-  }
-
-  .icon {
-    gap: 50px;
-  }
+  
+  
 
   .our_tea_blog {
     padding: 0 10px;
   }
 
   .blog_posts {
-    /* max-width: 460px; */
     grid-template-columns: 1fr;
     gap: 30px;
   }
