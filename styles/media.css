@@ -146,39 +146,34 @@
   }
 
   .footer_container {
+    gap: 70px;
+    padding-top: 50px;
+    padding-bottom: 12px;
+  }
+
+  .footer_container_top {
     max-width: 640px;
-    gap: 65px;
+    gap: 67px;
   }
 
   .footer_left {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    gap: 31px;
-  }
-
-  .copyright {
-    margin-top: 280px;
-  }
-
-  .payment_methods {
-    margin-top: 196px;
+    gap: 52px;
   }
 
 
   .footer_right {
-    display: flex;
-    justify-content: space-between;
     flex-direction: column;
     gap: 50px;
   }
 
   .footer_quote {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 269px;
     margin-top: 0;
+  }
+
+  .footer_container_bottom {
+    gap: 31px;
+    max-width: 500px;
+    margin: 0 65px;
   }
 }
 
@@ -203,8 +198,6 @@
     padding-left: 171px;
     padding-right: 80px;
   }
-  
-  
 
   .our_tea_blog {
     padding: 0 10px;
