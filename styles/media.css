@@ -68,20 +68,21 @@
   }
 
   .reviews {
-    display: flex;
-    flex-basis: 50%;
+    display: grid;
     justify-content: center;
-    flex-wrap: wrap;
-    padding: 50px 10px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px 67px;
+    padding-bottom: 50px;
     gap: 20px;
+    column-gap: auto;
   }
 
   .review {
-    max-width: 220px;
+    max-width: 280px;
   }
 
   .our_tea_blog {
-    margin: 60px auto; 
+    margin: 60px auto;
     padding: 0 87px;
   }
 
@@ -89,6 +90,10 @@
     grid-template-columns: 1fr;
     margin: 60px auto;
     gap: 30px;
+  }
+
+  .post:nth-child(even) {
+    margin-left: 98px;
   }
 
   .subscribe_block_6 {
@@ -237,6 +242,10 @@
     gap: 26px;
   }
 
+  .review {
+    max-width: 220px;
+  }
+
   .our_tea_blog {
     padding: 0 10px;
   }
@@ -244,6 +253,19 @@
   .blog_posts {
     grid-template-columns: 1fr;
     gap: 30px;
+  }
+
+  .post_img {
+    width: 230px;
+    height: 153px;
+  }
+
+  .post:nth-child(even) {
+    margin-left: 0px;
+  }
+
+  .read_more {
+    padding-top: 28px;
   }
 
   .subscribe_block_6 {

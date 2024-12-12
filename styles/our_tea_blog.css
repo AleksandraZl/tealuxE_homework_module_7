@@ -20,6 +20,11 @@
   gap: 20px;
 }
 
+.post_img {
+  width: 270px;
+  height: 180px;
+}
+
 .post_text {
   display: flex;
   flex-direction: column;
@@ -44,7 +49,7 @@
 .read_more {
   display: flex;
   justify-content: flex-start;
-  margin-top: 48px;
+  padding-top: 48px;
   gap: 8px;
 }
 
